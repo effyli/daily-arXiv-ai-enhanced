@@ -52,7 +52,7 @@ if __name__ == "__main__":
                     cate=item['categories'][0],
                     idx=next(idx)
                 )
-                for item in data if item["categories"][0] == cate and if 'AI' in item
+                for item in data if item["categories"][0] == cate and 'AI' in item
             ]
         )
     with open(args.data.split('_')[0] + '.md', "w") as f:
